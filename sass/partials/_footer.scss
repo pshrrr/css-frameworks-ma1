@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: space-between;
+  background-color: $creme;
+  margin-top: 2rem;
+  font-size: 0.8em;
+  color: $grey;
+  padding: 1em 5em;
+}
+
+.footer a,
+.footer div {
+  color: $grey;
+  font-size: 12px;
+}
+
+footer a:hover {
+  color: $grey;
+}
+@media only screen and (max-width: 1140px) {
+  .footer {
+    display: block;
+    text-align: center;
+    background-color: $white;
+  }
+}

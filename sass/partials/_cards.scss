@@ -1,0 +1,36 @@
+.container {
+  max-width: 330px;
+  margin: 0 auto;
+}
+.col-sm {
+  margin: 10px auto;
+}
+.card {
+  background-color: $creme !important;
+  height: 250px;
+  border: none;
+  border-radius: 20px;
+  margin: 15px auto;
+}
+.white {
+  background-color: $white !important;
+  border: 2px solid $pink !important;
+}
+.pink {
+  background-color: $pink !important;
+  border: 2px solid $white !important;
+}
+@media only screen and (max-width: 1140px) {
+  .card {
+    width: 265px;
+  }
+}
+@media only screen and (min-width: 1140px) {
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  .card {
+    width: auto;
+  }
+}
